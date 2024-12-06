@@ -1,0 +1,43 @@
+@media print {
+  /* Hide navigation and unnecessary elements */
+  header,
+  footer,
+  nav,
+  button {
+    display: none !important;
+  }
+
+  /* Reset page margins */
+  @page {
+    margin: 2cm;
+  }
+
+  /* Ensure text is black for better printing */
+  body {
+    color: black !important;
+    background: white !important;
+  }
+
+  /* Ensure content is visible */
+  .prose {
+    max-width: none !important;
+  }
+
+  /* Add page breaks before major sections */
+  section {
+    page-break-before: auto;
+    page-break-after: auto;
+    page-break-inside: avoid;
+  }
+
+  /* Ensure links are visible */
+  a {
+    text-decoration: underline;
+    color: black !important;
+  }
+
+  /* Show URLs after links */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+  }
+}

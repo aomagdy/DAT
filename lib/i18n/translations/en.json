@@ -1,0 +1,25 @@
+{
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the perfect plan for your DAT preparation journey",
+    "billing": {
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "save": "Save 20%"
+    },
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "description": "Essential DAT prep tools for focused students"
+      },
+      "standard": {
+        "name": "Standard",
+        "description": "Most popular choice for serious DAT candidates"
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "Comprehensive preparation with maximum support"
+      }
+    }
+  }
+}
